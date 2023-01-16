@@ -442,40 +442,37 @@ h1{
     height: 28px;
 }
 .map{
-    /* /* position: absolute; */
     width: 723px;
     height: 772px;
-    /* left: -667px;
-    top: 2607px;
-    background: url(world_map_PNG28.png);*/
     opacity: 0.6;
+    padding-left: 75px;
 }
 
 .popular-destinations > #title-wrapper {
     height: 189px;
     display: flex;
+    padding-left: 667px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .popular-destinations  #section-title {
-        font-weight: 700;
-        font-size: 40px;
-        
+    font-weight: 700;
+    font-size: 40px;  
+    font-family: 'Open Sans';
+    font-style: normal;
+    line-height: 54px;   
 }
 
 .maps-and-destinations{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
 }
 
 .three-countries{
     display: flex;
     flex-direction: column;
-    column-gap: 87px;
-    row-gap: 87px;
+    padding-right: 250px;
 }
 .country{
     display: flex;
@@ -484,4 +481,16 @@ h1{
     justify-content: space-between;
     row-gap: 100px;
     column-gap: 100px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;   
+    margin-bottom: 42px; 
+    padding-right: 50px;
+}
+.country > div{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
 }
