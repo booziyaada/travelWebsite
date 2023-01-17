@@ -2,6 +2,180 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(234, 234, 234);
+.popular-destinations {
+    background: #FFFFFF;
+}
+
+.map{
+    width: 723px;
+    height: 772px;
+    opacity: 0.6;
+    padding-left: 75px;
+}
+
+.popular-destinations > #title-wrapper {
+    height: 189px;
+    display: flex;
+    padding-left: 667px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.popular-destinations  #section-title {
+    font-weight: 700;
+    font-size: 40px;  
+    font-family: 'Open Sans';
+    font-style: normal;
+    line-height: 54px;   
+}
+
+.maps-and-destinations{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three-countries{
+    display: flex;
+    flex-direction: column;
+    padding-right: 250px;
+}
+.country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 100px;
+    column-gap: 100px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 15px;   
+    margin-bottom: 42px; 
+    padding-right: 50px;
+}
+.country > div{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.best-packages-for-you{
+    background: #ECF1F0;
+}
+
+#title-best-packages {
+    height: 165px;
+    display: flex;
+    padding-left: 641px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#section-best-packages{
+    font-weight: 700;
+    font-size: 40px;  
+    font-family: 'Open Sans';
+    font-style: normal;
+    line-height: 54px;   
+}
+
+.best-packages-for-you > .packages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 107px;
+}
+
+.deals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    background: #00A651;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF
+}
+.amount-of-the-tour{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    /* border-radius: 15px;
+    background: #ECF1F0; */
+}
+
+
+#indonesia-amount{
+    background: #FFFFFF;
+    border-radius: 0px 0px 15px 15px;
+}
+.period-and-money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000
+}
+
+.comments{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.81);
+}
+
+.location-and-more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details-of-money-reviews{
+    background: #FFFFFF;
+    border-radius: 0px 0px 15px 15px;
+}
+
+/* .map-location{
+    display: flex;
+    flex-direction: column;
+} */
+
+.discover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 98px;
+    padding-bottom: 105px;
+}
+
+.more-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #00A651;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 70px;
+    width: 300px;
 }
