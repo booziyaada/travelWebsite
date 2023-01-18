@@ -163,15 +163,15 @@ button {
 }
 
 body{
-    background-color: black;
+    /* background-color: black; */
     color: aliceblue;
-    height: 200vh;
+    height: 250vh;
 }
 
 /* home page css code */
 
 #home-page{
-    height: 100vh;
+    height: 93vh;
     background-image: url(https://static.sadhguru.org/d/46272/1633199491-1633199490440.jpg);
 
 }
@@ -298,16 +298,26 @@ body{
     padding-right: 5px;
 }
 
-#content{
+#content01{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.info{
-    border: 1px solid black;
-    background-color: #F9F9F9;
+/* content01 */
 
+.info{
+    /* border: 1px solid black; */
+    background-color: #f5f2f2;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+#info-mid{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
 }
 
 .img-sizingx{
@@ -327,4 +337,75 @@ body{
 
 .t1{
     font-size: 13px;
+}
+
+/* content02 */
+
+#content02{
+    top: 20px;
+    background-color: rgba(0, 88, 83, 0.05);
+    padding-top: 25px;
+    height: 80vh
+}
+
+#best-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.bold{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 0px;
+}
+
+#extra-top{
+    padding-top: 20px;
+}
+
+#all-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    padding-top: 80px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#calender{
+    width:23px;
+    height: 28px;
+}
+
+#graph{
+    width:23px;
+    height: 28px;
+}
+
+#leaf{
+    width:20px;
+    height: 28px;
+}
+
+#box{
+    width:20px;
+    height: 15px;
+}
+
+#frame{
+    width:20px;
+    height: 28px;
 }
