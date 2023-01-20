@@ -127,6 +127,51 @@ h1{
 }
 
 .map-location{
+    background-color: white;
+    height: 100vh;
+}
+
+#blue-box{
+
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    
+}
+
+#telegram{
+    height: 30px;
+    width: 30px;
+}
+
+#join-us{
+    height: 40vh;
+    width:650px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #d1f3ec;
+    border-radius: 110px 20px 20px 20px;
+}
+
+#subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #5E6282;
+}
+
+#mail{
     display: flex;
     flex-direction: row;
 }
@@ -492,4 +537,148 @@ h1{
 .country > :first-child{
     width: 223px;
     height: 223px;
+
+#mail-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    background-color: white;
+    padding: 7px 150px 7px 0px;
+    border-radius: 6px;
+}
+
+#mail-image{
+    height: 10px;
+    padding-left: 10px;
+}
+
+#sub-gap{
+    padding-right: 25px;
+    padding-left: 10px;
+    font-size: 9px;
+}
+
+#button{
+    padding-left: 5px;
+}
+
+#green{
+    padding: 7px 16px;
+    background-color:#00A651;
+    border-radius: 7px;
+    color: white;
+    font-size: 12px;
+}
+
+#stars{
+    height: 100px;
+    width: 1465px;
+    left: 1529px;
+}
+
+/* second half */
+
+#second-half{
+    display: flex;
+    justify-content: center;
+}
+
+#social-media{
+    padding-top: 60px;
+    display: flex;
+    column-gap: 60px;
+}
+
+#travel-go{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#goo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 20px 40px;
+}
+
+.headg{
+    font-weight: bold;
+    font-family: 'Laila', sans-serif;
+}
+
+#tg{
+    padding-left: 8px;
+}
+
+.grey{
+    color: #5E6282;
+    font-size: 10px;
+}
+
+.gre{
+    color: #5E6282;
+    font-size: 13px;
+}
+
+#about{
+    display: flex;
+    padding-left: 70px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.gap{
+    padding: 10px 70px 10px 10px;
+    color: #5E6282;
+    font-size: 10px;
+
+}
+
+.headin{
+    font-weight: bold;
+    padding: 20px 20px 20px 0px;
+}
+
+#fb-insta{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#play-app{
+    padding-top: 15px;
+
+}
+
+.fb-gram{
+    height: 52px;
+    width: 52px;
+}
+
+.i-gram{
+    background-color:rgb(250, 174, 187);
+    border-radius: 50%;
+    height: 39px;
+    width: 39px;
+}
+
+.black{
+    height: 40px;
+    width: 80px
+}
+
+#rights{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: #5E6282;
+    font-size: 10px;
+
 }
