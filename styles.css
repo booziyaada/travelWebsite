@@ -97,9 +97,7 @@ h1{
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 54px;
     text-align: center;
-    color: #000000;
 }
 
 .comments{
@@ -451,17 +449,14 @@ h1{
 .popular-destinations > #title-wrapper {
     height: 189px;
     display: flex;
-    padding-left: 667px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .popular-destinations  #section-title {
     font-weight: 700;
     font-size: 40px;  
     font-family: 'Open Sans';
-    font-style: normal;
-    line-height: 54px;   
 }
 
 .maps-and-destinations{
@@ -493,4 +488,8 @@ h1{
     font-size: 20px;
     line-height: 27px;
     color: #000000;
+}
+.country > :first-child{
+    width: 223px;
+    height: 223px;
 }
