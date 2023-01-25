@@ -195,7 +195,7 @@ body{
     font-size: 20px;
     max-width: 50%;
     text-align: center;
-    line-height: 25px;
+    line-height: 20px;
 }
 
 #top-mid-info{
@@ -270,7 +270,7 @@ body{
 
 /* second page css code */
 
-#second-page{
+#service-details{
     background-color: white;
     color: black;
     height: 70vh;
@@ -342,7 +342,16 @@ body{
     top: 20px;
     background-color: rgba(0, 88, 83, 0.05);
     padding-top: 25px;
-    height: 80vh
+    height: 80vh;
+    position: relative;
+}
+
+#world{
+    position: absolute;
+    z-index: 1;
+    opacity: 1.32;
+    width: 90%;
+    height: 90%;
 }
 
 #best-service{
