@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-a {
+a{
     text-decoration: none;
     color: white;
 }
@@ -158,12 +158,6 @@ button {
 
 .discover > button:hover {
     cursor: pointer;
-}
-
-body{
-    /* background-color: black; */
-    color: aliceblue;
-    height: 250vh;
 }
 
 /* home page css code */
