@@ -135,8 +135,7 @@ h1{
 
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    
+    padding-top: 50px;  
 }
 
 #telegram{
@@ -163,7 +162,7 @@ h1{
     align-items: center;
 }
 
-.msg{
+.message{
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 500;
@@ -573,16 +572,20 @@ h1{
     font-size: 9px;
 }
 
-#button{
+#subscriber-button{
     padding-left: 5px;
 }
 
-#green{
+#subscriber-button div{
     padding: 7px 16px;
     background-color:#00A651;
     border-radius: 7px;
     color: white;
     font-size: 12px;
+}
+
+#subscriber-button div:hover{
+    background-color:rgb(102, 243, 102);
 }
 
 #stars{
@@ -593,15 +596,12 @@ h1{
 
 /* second half */
 
-#communication{
-    display: flex;
-    justify-content: center;
-}
-
 #social-media{
     padding-top: 60px;
     display: flex;
     column-gap: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 #travel-go{
@@ -611,57 +611,48 @@ h1{
     align-items: center;
 
 }
-/* 
-#goo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0px 0px 20px 40px;
-} */
 
-.headg{
+.head-part{
     font-weight: bold;
     font-family: 'Laila', sans-serif;
     max-width: 50%;
     text-align: center;
 }
-/* 
-#tg{
-    padding-left: 8px;
-} */
 
-.grey{
+.book-ticket{
     color: #5E6282;
     font-size: 10px;
     max-width: 70%;
     margin-top: 15px;
 }
 
-.gre{
+.discover{
     color: #5E6282;
     font-size: 13px;
 }
 
 #about{
-    display: flex;
-    padding-left: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 100px;
 }
 
-#contact{
-    display: flex;
-    flex-direction: column;
+#contact {
+    display: grid;
+    row-gap: 15px;
 }
 
-.gap{
-    padding: 10px 70px 10px 10px;
+.socio-detail{
     color: #5E6282;
     font-size: 10px;
-
+    text-decoration: none;
 }
 
-.headin{
+.socio-info{
     font-weight: bold;
-    padding: 20px 20px 20px 0px;
+    text-decoration: none;
+    color: black;
 }
 
 #fb-insta{
@@ -680,6 +671,14 @@ h1{
     width: 52px;
 }
 
+.fb-gram:hover{
+    background-color:gray;
+}
+
+.i-gram:hover{
+    background-color:gray;
+}
+
 .i-gram{
     background-color:rgb(250, 174, 187);
     border-radius: 50%;
@@ -687,14 +686,17 @@ h1{
     width: 39px;
 }
 
-.black{
+.application{
     height: 40px;
     width: 80px
 }
 
+.application:hover{
+    background-color:gray;
+}
+
 #rights{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding-top: 50px;
     color: #5E6282;
     font-size: 10px;
