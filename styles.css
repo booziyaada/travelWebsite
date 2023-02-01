@@ -551,6 +551,51 @@ h1{
     border-radius: 6px;
 } */
 
+#latest-news{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;  
+}
+
+#telegram{
+    height: 30px;
+    width: 30px;
+}
+
+#join-us{
+    height: 40vh;
+    width:650px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #d1f3ec;
+    border-radius: 110px 20px 20px 20px;
+}
+
+#subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #5E6282;
+    max-width: 75%;
+    text-align: center;
+}
+
+#mail{
+    display: flex;
+    flex-direction: row;
+}
+
 #email-id-name{
     padding: 7px 10px;
     border: none;
