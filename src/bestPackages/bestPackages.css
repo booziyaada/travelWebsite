@@ -1,0 +1,102 @@
+
+.best-packages{
+    background: #ECF1F0;
+}
+
+.best-packages > #title-wrapper {
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-packages #title{
+    font-weight: 700;
+    font-size: 40px;  
+    font-family: 'Open Sans';
+    font-style: normal;
+    line-height: 54px;   
+}
+
+.best-packages > .packages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 107px;
+}
+
+.packages > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    background: #00A651;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF
+}
+
+.packages > div:hover {
+    cursor: pointer;
+}
+
+.best-packages > .cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.best-packages .one-card {
+    position: relative;
+}
+
+.comments{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.81);
+    margin-top: 18px;
+    max-width: 360px;
+}
+
+.location-and-more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 33px;
+}
+.tour-details{
+    background: #FFFFFF;
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px 13px 17px 13px;
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.map-location{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.period-and-money{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}

@@ -1,0 +1,194 @@
+#blue-box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;  
+}
+
+#telegram{
+    height: 30px;
+    width: 30px;
+}
+
+#join-us{
+    height: 40vh;
+    width:650px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #d1f3ec;
+    border-radius: 110px 20px 20px 20px;
+}
+
+#subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #5E6282;
+    max-width: 75%;
+    text-align: center;
+}
+
+#mail{
+    display: flex;
+    flex-direction: row;
+}
+
+.country{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.know-more{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.discover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 98px;
+    padding-bottom: 105px;
+}
+
+.discover > button {
+    background: #00A651;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    height: 70px;
+    width: 300px;
+}
+
+.discover > button:hover {
+    cursor: pointer;
+}
+
+#social-media{
+    padding-top: 60px;
+    display: flex;
+    column-gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+#travel-go{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head-part{
+    font-weight: bold;
+    font-family: 'Laila', sans-serif;
+    max-width: 50%;
+    text-align: center;
+}
+
+.book-ticket{
+    color: #5E6282;
+    font-size: 10px;
+    max-width: 70%;
+    margin-top: 15px;
+}
+
+.discover-app{
+    color: #5E6282;
+    font-size: 13px;
+}
+
+#about{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 100px;
+}
+
+#contact {
+    display: grid;
+    row-gap: 15px;
+}
+
+.socio-detail{
+    color: #5E6282;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.socio-info{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#fb-insta{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+#play-app{
+    padding-top: 15px;
+
+}
+
+.fb-gram{
+    height: 52px;
+    width: 52px;
+}
+
+.fb-gram:hover{
+    background-color:gray;
+}
+
+.i-gram:hover{
+    background-color:gray;
+}
+
+.i-gram{
+    background-color:rgb(250, 174, 187);
+    border-radius: 50%;
+    height: 39px;
+    width: 39px;
+}
+
+.application{
+    height: 40px;
+    width: 80px
+}
+
+.application:hover{
+    background-color:gray;
+}
+
+#rights{
+    text-align: center;
+    padding-top: 50px;
+    color: #5E6282;
+    font-size: 10px;
+
+}
