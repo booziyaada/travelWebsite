@@ -1,0 +1,106 @@
+#service-content{
+    top: 20px;
+    background-color: rgba(0, 88, 83, 0.05);
+    padding-top: 25px;
+    height: 80vh;
+    position: relative;
+}
+
+#world{
+    position: absolute;
+    z-index: 1;
+    opacity: 1.32;
+    width: 90%;
+    height: 90%;
+}
+
+#best-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+
+.moto{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 0px;
+    text-align: center;
+    max-width: 35%;
+}
+
+
+
+#extra-top{
+    padding-top: 20px;
+    text-align: center;
+    max-width: 45%;
+}
+
+.num-data{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    padding: 4px 0px;
+}
+
+.text-data{
+    text-align: center;
+    font-size: 12px;
+    max-width: 70%;
+}
+
+#all-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    padding-top: 80px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#calender{
+    width:15px;
+    height: 26px;
+}
+
+#graph{
+    width:17px;
+    height: 26px;
+}
+
+#leaf{
+    width:20px;
+    height: 28px;
+}
+
+#box{
+    width:20px;
+    height: 15px;
+}
+
+#frame{
+    width:20px;
+    height: 28px;
+}
+.map{
+    width: 723px;
+    height: 772px;
+    opacity: 0.6;
+    padding-left: 75px;
+}
+
+

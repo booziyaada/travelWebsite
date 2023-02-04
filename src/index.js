@@ -1,4 +1,3 @@
-import "./styles.css";
 import banner from "./banner/banner.html";
 import services from "./services/services.html";
 import serviceStats from "./serviceStats/serviceStats.html";
@@ -6,6 +5,15 @@ import links from "./links/links.html";
 import subscribe from "./subscribe/subscribe.html";
 import bestPackages from "./bestPackages/bestPackages.html";
 import popularDestinations from "./popularDestinations/popularDestinations.html";
+
+import "./styles.css";
+import "./banner/banner.css";
+import "./services/services.css";
+import "./serviceStats/serviceStats.css";
+import "./links/links.css";
+import "./subscribe/subscribe.css";
+import "./bestPackages/bestPackages.css";
+import "./popularDestinations/popularDestinations.css";
 
 var modules = [
     banner, 
