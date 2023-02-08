@@ -1,3 +1,7 @@
+html {
+    font-size: 62.5%;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -15,16 +19,22 @@ button {
     border: 0px;
 }
 
-h1{
-    /* position: absolute; */
-    width: 496px;
-    height: 54px;
-    /* left: 616px;
-    top: 2490px; */
-    font-family: 'Open Sans';
-    font-style: normal;
+.section-title {
+    max-width: 40%;
+    font-family: "Open Sans";
     font-weight: 700;
-    font-size: 40px;
+    font-size: 4rem;
     text-align: center;
+    line-height: 5.4rem;
+}
+
+.section {
+   padding-top: 7.2rem; 
+}
+
+div {
+    font-family: Open Sans;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
 }
 
