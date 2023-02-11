@@ -17,12 +17,12 @@ import "./popularDestinations/popularDestinations.css";
 
 var modules = [
     banner, 
-    services, 
-    serviceStats, 
-    bestPackages,
-    popularDestinations, 
-    subscribe,
-    links
+    // services, 
+    // serviceStats, 
+    // bestPackages,
+    // popularDestinations, 
+    // subscribe,
+    // links
 ];
 
 var allSections = "";
