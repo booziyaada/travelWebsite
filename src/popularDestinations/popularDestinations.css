@@ -1,45 +1,46 @@
 .popular-destinations > #title-wrapper {
-    height: 189px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.popular-destinations  #section-title {
+.popular-destinations > #section-titles {
     font-weight: 700;
-    font-size: 40px;  
+    font-size: 4rem;  
     font-family: 'Open Sans';
 }
 
 .maps-and-destinations{
     display: flex;
     justify-content: space-between;
+    padding-top: 7.2rem;
+    margin-bottom: 5.2rem;
 }
 
 .three-countries{
     display: flex;
     flex-direction: column;
-    padding-right: 250px;
+    row-gap: 4.2rem;
+    margin-right: 25rem;
 }
 .country{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    row-gap: 100px;
-    column-gap: 100px;
-    border-radius: 15px;   
-    padding-right: 50px;
+    row-gap: 10rem;
+    column-gap: 10rem;
+    box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.08);
+    border-radius: 1.5rem;   
+    padding-right: 5rem;
 }
 .country > div{
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    color: #000000;
+    font-size: 2rem;
+    line-height: 2.7rem;
 }
 .country > :first-child{
-    width: 223px;
-    height: 223px;
+    width: 22.3rem;
+    height: 22.3rem;
 }
