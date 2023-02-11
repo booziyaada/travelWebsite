@@ -3,24 +3,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 50px;  
+    padding-top: 5rem;  
 }
 
 #telegram{
-    height: 30px;
-    width: 30px;
+    height: 3rem;
+    width: 3rem;
 }
 
 #join-us{
     height: 40vh;
-    width:650px;
+    width:65rem;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background: #d1f3ec;
-    border-radius: 110px 20px 20px 20px;
+    border-radius: 11rem 2rem 2rem 2rem;
 }
 
 #subscribe{
@@ -34,7 +34,7 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 2rem;
     color: #5E6282;
     max-width: 75%;
     text-align: center;
@@ -49,8 +49,8 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 2rem;
+    line-height: 2.7rem;
     color: #000000;
 }
 
@@ -58,8 +58,8 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
     text-decoration-line: underline;
     color: #000000;
 }
@@ -67,19 +67,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 98px;
-    padding-bottom: 105px;
+    padding-top: 9.8rem;
+    padding-bottom: 10.5rem;
 }
 
 .discover > button {
     background: #00A651;
-    border-radius: 10px;
+    border-radius: 1rem;
     font-family: 'Open Sans';
     font-weight: 700;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: #FFFFFF;
-    height: 70px;
-    width: 300px;
+    height: 7rem;
+    width: 30rem;
 }
 
 .discover > button:hover {
@@ -87,9 +87,9 @@
 }
 
 #social-media{
-    padding-top: 60px;
+    padding-top: 6rem;
     display: flex;
-    column-gap: 60px;
+    column-gap: 6rem;
     justify-content: center;
     align-items: center;
 }
@@ -111,31 +111,32 @@
 
 .book-ticket{
     color: #5E6282;
-    font-size: 10px;
+    font-size: 1rem;
     max-width: 70%;
-    margin-top: 15px;
+    margin-top: 1.5rem;
+    line-height: 1.5rem;
 }
 
 .discover-app{
     color: #5E6282;
-    font-size: 13px;
+    font-size: 1.3rem;
 }
 
 #about{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    column-gap: 100px;
+    column-gap: 10rem;
 }
 
 #contact {
     display: grid;
-    row-gap: 15px;
+    row-gap: 1.5rem;
 }
 
 .socio-detail{
     color: #5E6282;
-    font-size: 10px;
+    font-size: 1rem;
     text-decoration: none;
 }
 
@@ -148,17 +149,17 @@
 #fb-insta{
     display: flex;
     align-items: center;
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
 }
 
 #play-app{
-    padding-top: 15px;
+    padding-top: 1.5rem;
 
 }
 
 .fb-gram{
-    height: 52px;
-    width: 52px;
+    height: 5.2rem;
+    width: 5.2rem;
 }
 
 .fb-gram:hover{
@@ -172,13 +173,13 @@
 .i-gram{
     background-color:rgb(250, 174, 187);
     border-radius: 50%;
-    height: 39px;
-    width: 39px;
+    height: 3.9rem;
+    width: 3.9rem;
 }
 
 .application{
-    height: 40px;
-    width: 80px
+    height: 4rem;
+    width: 8rem;
 }
 
 .application:hover{
@@ -187,8 +188,8 @@
 
 #rights{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5rem;
     color: #5E6282;
-    font-size: 10px;
+    font-size: 1rem;
 
 }
