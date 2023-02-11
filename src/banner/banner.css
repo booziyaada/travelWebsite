@@ -7,7 +7,7 @@
 #top-info{ 
     display: flex;
     justify-content: space-around;
-    padding-top: 40px;
+    padding-top: 4rem;
     width: 100%;
 }
 
@@ -22,10 +22,10 @@
     font-family: 'Laila';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2rem;
     max-width: 50%;
     text-align: center;
-    line-height: 20px;
+    line-height: 2rem;
 }
 
 #top-mid-info{
@@ -33,12 +33,12 @@
 }
 
 #top-mid-info div{
-    padding: 10px 20px;
+    padding: 1rem 2rem;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 200;
-    font-size: 13px;
-    line-height: 27px;
+    font-size: 1.3rem;
+    line-height: 2.7rem;
 }
 
 #top-right-info{
@@ -46,18 +46,18 @@
 }
 
 #top-right-info #right-info{
-    Width:33.14px;
-    Height:31.6px;
-    padding: 8px;
+    Width:3.314rem;
+    Height:3.16rem;
+    padding: 0.8rem;
 }
 
 #top-right-info #circle{
-    margin-top: 5px;
-    margin-left: 20px;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
     border-radius: 50%;
     border: 1px solid aliceblue; 
-    Width: 23.14px;
-    Height: 23.6px;
+    Width: 2.314rem;
+    Height: 2.36rem;
 }
 
 #centralised-info{
@@ -70,30 +70,30 @@
 #mid-quote h1{
     font-family: 'Rubik', sans-serif;
     text-align: center;
-    margin: 150px 100px 10px 100px;
+    margin: 15rem 10rem 1rem 10rem;
     width: 65%;
 }
 
 #our-role{
-    margin: 5px;
-    padding-top: 20px;
+    margin: 0.5rem;
+    padding-top: 2rem;
 }
 
 #our-role div{
     text-align: center;
-    max-width: 500px;
+    max-width: 50rem;
 }
 
 .button {
     background-color: #00A651;
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 1rem 1.5rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 11px;
-    margin: 25px 2px;
+    font-size: 1.1rem;
+    margin: 2.5rem 2rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 0.5rem;
   }
