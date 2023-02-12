@@ -1,33 +1,42 @@
 #service-details{
     background-color: white;
     color: black;
-    height: 70vh;
-    margin-bottom: 3.5rem;
+    height: 100%;
+    /* margin-bottom: 3.5rem; */
 }
 
 #title{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    padding: 9rem 39.6rem 4rem 39.6rem;
-    display: flex;
+    /* margin: 9rem 39.6rem 4rem 39.6rem; */
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     text-align: center;
+    /* max-width: 100%; */
 }
 
+
+#title div{
+    font-size: 4rem;
+    line-height: 4rem;
+}
 #add-content{
+    margin-top: 7rem;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
 }
 
 /* content01 */
 
 .info{
     /* border: 1px solid black; */
+    width: 29rem;
+    height: 15rem;
     background-color: #f5f2f2;
-    margin: 5rem;
+    /* margin: 5rem; */
     padding: 1.5rem;
     border-radius: 1.5rem;
 }
@@ -61,4 +70,9 @@
 .t1{
     font-size: 1.3rem;
     font-weight: normal;
+    line-height: 1.5rem;
+}
+
+.left-logo{
+    margin-bottom: -1rem;
 }
