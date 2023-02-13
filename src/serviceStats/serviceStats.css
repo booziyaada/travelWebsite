@@ -50,9 +50,13 @@
 #all-details{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     color: black;
     margin-top: 11.8rem;
+    flex-wrap: wrap;
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+    padding: 0 2.5rem;
 }
 
 .details{
@@ -86,5 +90,20 @@
     opacity: 0.6;
     padding-left: 75px;
 }
+
+@media screen and (max-width : 650px) {
+    #extra-top{
+        max-width: 80%;
+    }
+
+    #all-details {
+        margin-top : 6rem;
+    }
+
+    #service-content {
+        padding-bottom: 6rem;
+    }
+}
+
 
 

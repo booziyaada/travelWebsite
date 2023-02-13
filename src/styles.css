@@ -42,3 +42,12 @@ div {
     line-height: 2.1rem;
 }
 
+@media screen and (max-width : 650px) {
+    .section-title {
+        max-width: 80%;
+        font-size: 3rem;
+        line-height: 4.2rem;
+    }
+}
+
+
