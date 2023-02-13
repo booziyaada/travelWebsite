@@ -71,7 +71,7 @@
     font-family: 'Rubik', sans-serif;
     text-align: center;
     margin: 15rem 10rem 1rem 10rem;
-    width: 65%;
+    width: 75%;
 }
 
 #our-role{
@@ -96,4 +96,16 @@
     margin: 2.5rem 2rem;
     cursor: pointer;
     border-radius: 0.5rem;
+  }
+
+  @media screen and (max-width: 725px){
+    #mid-quote h1 {
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        margin: 10rem 10rem 3rem 10rem;
+    }
+
+    #our-role div{
+        width: 97%;
+    }
   }
