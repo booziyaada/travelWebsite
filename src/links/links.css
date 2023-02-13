@@ -153,6 +153,7 @@
 }
 
 #play-app{
+    display: flex;
     padding-top: 1.5rem;
 
 }
@@ -180,6 +181,7 @@
 .application{
     height: 4rem;
     width: 8rem;
+    margin-left: 1rem;
 }
 
 .application:hover{
@@ -193,3 +195,29 @@
     font-size: 1rem;
 
 }
+
+@media screen and (max-width: 900px) {
+    .head-part {
+        max-width: 100%;
+    }    
+    .book-ticket {
+        max-width: 100%;
+    }
+    #about {
+        column-gap: 5rem;
+    }
+    #fb-insta {
+        column-gap: 4rem;
+    }
+    #play-app {
+        column-gap: 2rem;
+
+    }
+    #social-media{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+  }
