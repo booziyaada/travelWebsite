@@ -10,6 +10,7 @@
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    max-width: 100%;
 }
 
 
@@ -18,7 +19,7 @@
     line-height: 4rem;
 }
 #add-content{
-    margin-top: 7rem;
+    margin-top: 4rem;
     display: flex;
     justify-content: space-around;
 }
@@ -72,6 +73,7 @@
 @media screen and (max-width: 950px) {
     #add-content{
         flex-wrap: wrap;
+        justify-content: center;
         row-gap: 4rem;
         column-gap: 5rem;
     }
