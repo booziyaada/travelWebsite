@@ -4,7 +4,7 @@
 }
 
 .best-packages > #title-wrapper {
-    height: 165px;
+    height: 16.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,32 +12,32 @@
 
 .best-packages #title{
     font-weight: 700;
-    font-size: 40px;  
+    font-size: 4.0rem;  
     font-family: 'Open Sans';
     font-style: normal;
-    line-height: 54px;   
+    line-height: 5.4rem;   
 }
 
 .best-packages > .packages{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 107px;
+    margin-bottom: 10.7rem;
 }
 
 .packages > div{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 60px;
+    width: 18.0rem;
+    height: 6.0rem;
     background: #00A651;
-    border-radius: 10px;
+    border-radius: 1.0rem;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 2.0rem;
+    line-height: 2.7rem;
     text-align: center;
     color: #FFFFFF
 }
@@ -61,23 +61,23 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
     color: rgba(0, 0, 0, 0.81);
-    margin-top: 18px;
-    max-width: 360px;
+    margin-top: 1.8rem;
+    max-width: 36rem;
 }
 
 .location-and-more{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 33px;
+    margin-top: 3.3rem;
 }
 .tour-details{
     background: #FFFFFF;
-    border-radius: 0px 0px 15px 15px;
-    padding: 10px 13px 17px 13px;
+    border-radius: 0rem 0rem 1.5rem 1.5rem;
+    padding: 1.0rem 1.3rem 1.7rem 1.3rem;
     position: absolute;
     bottom:0;
     width: 100%;
@@ -97,6 +97,6 @@
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 2rem;
+    line-height: 2.7rem;
 }
