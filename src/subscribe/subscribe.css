@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     padding: 5rem 1rem 3rem 2rem;
+    width: 100%;
 }
 
 #telegram{
@@ -89,17 +90,56 @@
 
 @media screen and (max-width: 740px) {
     #join-us {
-        height: 27rem;
+        padding-left: 0.5rem;
+        width: 95%;
     }
     .message{
-        font-size: 1.7rem;
-        line-height: 2rem;
+        max-width: 85%;
     }
     #subscriber-button div{
         font-size: 1rem;
         height: 2.5rem;
+        line-height: 1.1rem;
     }
     #mail {
         height: 2.5rem;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .message{
+        max-width: 85%;
+    }
+  }
+
+  
+  @media screen and (max-width: 540px) {
+    .message{
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 430px) {
+    #mail{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5rem;
+    }
+
+    #subscriber-button {
+        width: 7.23rem;
+    }
+  }
+  
+  
+  @media screen and (max-width: 320px) {
+    #join-us {
+        height: 30rem;
+        justify-content: space-evenly;
+    }
+
+    #mail {
+        height: 3rem;
     }
   }
