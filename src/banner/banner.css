@@ -1,6 +1,6 @@
 #home-page{
     color: aliceblue;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(https://static.sadhguru.org/d/46272/1633199491-1633199490440.jpg);
 }
 
@@ -72,7 +72,7 @@
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    max-width: 95%;
+    max-width: 85%;
 }
 
 #mid-quote h1{
