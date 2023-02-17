@@ -16,13 +16,13 @@ import "./bestPackages/bestPackages.css";
 import "./popularDestinations/popularDestinations.css";
 
 var modules = [
-    banner, 
-    services, 
-    serviceStats, 
+    // banner, 
+    // services, 
+    // serviceStats, 
     bestPackages,
-    popularDestinations, 
-    subscribe,
-    links
+    // popularDestinations, 
+    // subscribe,
+    // links
 ];
 
 var allSections = "";
