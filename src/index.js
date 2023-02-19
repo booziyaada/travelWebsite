@@ -19,8 +19,8 @@ var modules = [
     banner, 
     services, 
     serviceStats, 
-    bestPackages,
-    popularDestinations, 
+    // bestPackages,
+    // popularDestinations, 
     subscribe,
     links
 ];
