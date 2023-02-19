@@ -1,3 +1,4 @@
+
 .popular-destinations > #title-wrapper {
     display: flex;
     align-items: center;
@@ -12,7 +13,7 @@
 
 .maps-and-destinations{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 7.2rem;
     margin-bottom: 5.2rem;
 }
@@ -21,7 +22,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 4.2rem;
-    margin-right: 25rem;
+    width: 40%;
 }
 .country{
     display: flex;
@@ -33,6 +34,7 @@
     box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.08);
     border-radius: 1.5rem;   
     padding-right: 5rem;
+    width: 85%;
 }
 .country > div{
     font-style: normal;
@@ -40,7 +42,9 @@
     font-size: 2rem;
     line-height: 2.7rem;
 }
-.country > :first-child{
-    width: 22.3rem;
-    height: 22.3rem;
-}
+
+@media screen and (max-width: 992px){
+    .maps-and-destinations{
+        flex-direction: column;
+    }
+} 
