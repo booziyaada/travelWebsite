@@ -1,5 +1,4 @@
 #blue-box{
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,6 +91,7 @@
     column-gap: 6rem;
     justify-content: center;
     align-items: center;
+    padding-bottom: 6rem;
 }
 
 #travel-go{
@@ -107,19 +107,21 @@
     font-family: 'Laila', sans-serif;
     max-width: 50%;
     text-align: center;
+    color: #000000;
 }
 
 .book-ticket{
     color: #5E6282;
-    font-size: 1rem;
+    font-size: 1.2rem;
     max-width: 70%;
+    text-align: initial;
     margin-top: 1.5rem;
     line-height: 1.5rem;
 }
 
 .discover-app{
     color: #5E6282;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 #about{
@@ -136,7 +138,7 @@
 
 .socio-detail{
     color: #5E6282;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -150,28 +152,37 @@
     display: flex;
     align-items: center;
     padding-bottom: 1.5rem;
+    column-gap: 0.5rem;
 }
 
 #play-app{
+    display: flex;
     padding-top: 1.5rem;
 
 }
 
-.fb-gram{
-    height: 5.2rem;
-    width: 5.2rem;
+
+#fb-insta > span {
+    padding: 1rem;
+    border-radius: 100%;
+    height: 4rem;
+    border: 1px solid #f6f6f6;
+}
+#fb-insta > span:hover {
+    background-color: #f6f6f6;
+    cursor: pointer;
+
 }
 
-.fb-gram:hover{
-    background-color:gray;
+
+#fb-insta  img {
+    height: 2rem;
+    width: 2rem;
+
 }
 
-.i-gram:hover{
-    background-color:gray;
-}
 
 .i-gram{
-    background-color:rgb(250, 174, 187);
     border-radius: 50%;
     height: 3.9rem;
     width: 3.9rem;
@@ -180,16 +191,80 @@
 .application{
     height: 4rem;
     width: 8rem;
+    margin-left: 1rem;
 }
 
 .application:hover{
-    background-color:gray;
+    cursor: pointer;
 }
 
 #rights{
     text-align: center;
-    padding-top: 5rem;
+    color: #5E6282;
+}
+
+#lastLine{
     color: #5E6282;
     font-size: 1rem;
+}    
 
+@media screen and (max-width: 900px) {
+    .head-part {
+        max-width: 100%;
+    }    
+    .book-ticket {
+        max-width: 100%;
+    }
+    #about {
+        column-gap: 5rem;
+    }
+    #fb-insta {
+        column-gap: 4rem;
+    }
+    #play-app {
+        column-gap: 2rem;
+        justify-content: center;
+
+    }
+    #social-media{
+        display: flex;
+        flex-direction: column;
+        row-gap: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discover-app {
+        text-align: center;
+    }
+  }
+
+@media screen and (max-width: 400px){
+    #about {
+        column-gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .book-ticket {
+        max-width: 90%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    #about {
+        column-gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 325px){
+    #about {
+        column-gap: 1.9rem;
+    }
+
+    .socio-detail {
+        font-size: 1.3rem;
+    }    
 }

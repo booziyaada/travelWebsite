@@ -79,7 +79,8 @@
 }
 
 #subscriber-button div:hover{
-    background-color:rgb(102, 243, 102);
+    background-color:rgb(42, 151, 42);
+    cursor: pointer;
 }
 
 #stars{
