@@ -18,11 +18,15 @@
     margin-bottom: 5.2rem;
 }
 
+#map-wrapper {
+    width: 50%;
+}
+
 .three-countries{
     display: flex;
     flex-direction: column;
     row-gap: 4.2rem;
-    width: 40%;
+    width: 50%;
 }
 .country{
     display: flex;
@@ -30,12 +34,17 @@
     align-items: center;
     justify-content: space-between;
     row-gap: 10rem;
-    column-gap: 10rem;
     box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.08);
     border-radius: 1.5rem;   
     padding-right: 5rem;
     width: 85%;
+    max-width: 50rem;
 }
+
+.country-img {
+    height: 14rem;
+}
+
 .country > div{
     font-style: normal;
     font-weight: 600;
