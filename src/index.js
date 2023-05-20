@@ -5,6 +5,7 @@ import links from "./links/links.html";
 import subscribe from "./subscribe/subscribe.html";
 import bestPackages from "./bestPackages/bestPackages.html";
 import popularDestinations from "./popularDestinations/popularDestinations.html";
+import nextTrip from "./nextTrip/nextTrip.html"
 
 import "./styles.css";
 import "./banner/banner.css";
@@ -14,15 +15,17 @@ import "./links/links.css";
 import "./subscribe/subscribe.css";
 import "./bestPackages/bestPackages.css";
 import "./popularDestinations/popularDestinations.css";
+import "./nextTrip/nextTrip.css"
 
 var modules = [
-    banner, 
-    services, 
-    serviceStats, 
+    // banner, 
+    // services, 
+    // serviceStats, 
     // bestPackages,
     // popularDestinations, 
-    subscribe,
-    links
+    nextTrip,
+    // subscribe,
+    // links
 ];
 
 var allSections = "";
