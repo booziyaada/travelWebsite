@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.tripBox{
+    width: 1200px;
+    margin: 0px auto;
+    position: relative;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+.optionSection > div{
+    display: grid;
+    grid-template-columns: 100px 300px;
+    grid-template-rows: repeat(3,40px);
+    color: grey;
+}
+.optionSection p{
+    font-size: 12px;
+}
+
+.innerDiv{
+    width: 370px;
+    height: 370px;
+    border: 1px solid silver;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px skyblue;
+    text-align: left;
+    padding: 25px;
+}
+.innerDiv h6{
+    margin: 10px 0px;
+    color: silver;
+}
+.onGoingDiv p{
+    color: silver;
+}
+.peopleDiv{
+    display: grid;
+    grid-template-columns: 40px 250px 20px;
+    grid-template-rows: 30px;
+    margin: 10px 0px;
+}
+.peopleDiv h6{
+    position: relative;
+    bottom: 12px;
+}
+.mosque{
+    width: 321px;
+    height: 161px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.onGoingDiv{
+    width: 253px;
+    height: 110px;
+    border: 1px solid skyblue;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 60px;
+    right: 260px;
+    padding: 10px;
+    background-color:white;
+    
+}
+.ongoing{
+    display: grid;
+    grid-template-columns: 60px 150px;
+}
+.counts{
+    position: absolute;
+    left: 70px;
+}
